@@ -1,10 +1,38 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+}
 body {
   font-family: 'Courier New', Courier, monospace;
+  display:flex;  
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap:32px;
+  padding:0 20px;
+  height:100vh;
 }
 
+.contents {
+  display:flex;
+  justify-content: space-around;
+  gap:52px;
+  margin:0 auto;
+}
+
+.contents .items {
+  display:flex;
+  flex-direction: column;
+  width:200px;
+  flex-wrap: wrap;
+  text-align: center;
+  
+  
+}
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
