@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  font-size:22px ;
   height: 100vh;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -42,7 +43,23 @@ ul {
   
 }
 
- a {
+
+.content {
+  text-align: center;
+  
+}
+
+.content * {
+  margin-bottom:10px;
+}
+
+.footer {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+
+a {
   color:black;
   text-decoration: none;
   font-size: 1.2em;
@@ -60,11 +77,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.content {
-  text-align: center;
-}
-
-.footer {
-  background-color: #eee;
-  border-radius: 10px;
+button {
+  padding: 8px 16px;
 }
