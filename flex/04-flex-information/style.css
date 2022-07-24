@@ -1,4 +1,4 @@
-* {
+/** {
   box-sizing:border-box;
   margin:0;
 }
@@ -15,7 +15,7 @@ body {
 
 .contents {
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
   gap:52px;
   margin:0 auto;
 }
@@ -28,7 +28,7 @@ body {
   text-align: center;
   
   
-}
+}*/
 img {
   width: 100px;
   height: 100px;
@@ -51,4 +51,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+body {
+  text-align:center;
+}
+
+.title {
+  margin-bottom:32px;
+}
+
+.contents {
+  display:flex;
+  justify-content: center;
+  gap:52px;
+}
+
+.items {
+  max-width:200px;
 }
